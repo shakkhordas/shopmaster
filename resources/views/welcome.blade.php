@@ -21,7 +21,7 @@
                 </div>
             </a>
             <!-- Menu Items -->
-            <div class="hidden space-x-8 md:flex">
+            <div class="menu hidden space-x-8 md:flex">
                 <a href="#about" class="hover:text-gray-500">About</a>
                 <a href="#services" class="hover:text-gray-500">Features</a>
                 <a href="#" class="hover:text-gray-500">FAQ</a>
