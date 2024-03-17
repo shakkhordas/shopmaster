@@ -9,6 +9,8 @@
     @vite('resources/js/script.js')
 </head>
 <body class="font-roboto">
+    <!-- Scroll Watcher --> 
+    <div class="scroll-watcher"></div>
     <!-- Navbar -->
     <nav class="relative container mx-auto p-6">
         <!-- Flex Container -->
@@ -21,7 +23,7 @@
                 </div>
             </a>
             <!-- Menu Items -->
-            <div class="menu hidden space-x-8 md:flex">
+            <div class="hidden space-x-8 md:flex">
                 <a href="#about" class="hover:text-gray-500">About</a>
                 <a href="#services" class="hover:text-gray-500">Features</a>
                 <a href="#" class="hover:text-gray-500">FAQ</a>
@@ -76,10 +78,10 @@
             <div class="flex flex-col-reverse space-y-12 mx-auto md:flex-row-reverse md:justify-between md:space-x-6">
                 <!-- Heading and Description -->
                 <div class="flex flex-col items-center md:items-start md:my-auto">
-                    <h1 class="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+                    <h1 class="max-w-md text-3xl font-bold text-center p-6 md:text-4xl md:text-left">
                         Explore Limitless Possibilities
                     </h1>
-                    <p class="max-w-md text-justify text-gray-500 md:text-justify">
+                    <p class="max-w-md text-justify text-gray-500 p-6 md:text-justify">
                         Dive into a world of endless possibilities as you explore our diverse range of products. 
                         From the latest trends in fashion to cutting-edge gadgets, we handpick each item to ensure 
                         supreme quality and style. Whether you're shopping for yourself or searching for the perfect gift, 
@@ -95,10 +97,10 @@
             <div class="flex flex-col-reverse space-y-12 mx-auto md:flex-row md:justify-between md:space-x-6">
                 <!-- Heading and Description -->
                 <div class="flex flex-col items-center md:items-start md:my-auto">
-                    <h1 class="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+                    <h1 class="max-w-md text-3xl font-bold text-center p-6 md:text-4xl md:text-left">
                         Shop with Confidence
                     </h1>
-                    <p class="max-w-md text-justify text-gray-500 md:text-justify">
+                    <p class="max-w-md text-justify text-gray-500 p-6 md:text-justify">
                         At our e-commerce store, your satisfaction is our top priority. We prioritize transparency and 
                         reliability, providing detailed product descriptions, customer reviews, and secure payment options. 
                         Rest assured, every purchase you make is backed by our commitment to excellence, ensuring a seamless 
@@ -114,10 +116,10 @@
             <div class="flex flex-col-reverse space-y-12 mx-auto md:flex-row-reverse md:justify-between md:space-x-6">
                 <!-- Heading and Description -->
                 <div class="flex flex-col items-center md:items-start md:my-auto">
-                    <h1 class="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+                    <h1 class="max-w-md text-3xl font-bold text-center p-6 md:text-4xl md:text-left">
                         Stay Connected
                     </h1>
-                    <p class="max-w-md text-justify text-gray-500 md:text-justify">
+                    <p class="max-w-md text-justify text-gray-500 p-6 md:text-justify">
                         Join our vibrant online community and stay connected with the latest updates, exclusive offers, and 
                         exciting promotions. Subscribe to our newsletter and follow us on social media to be the first to know 
                         about new arrivals, sales events, and more. Let's embark on this shopping journey together, where every 
